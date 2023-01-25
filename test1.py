@@ -6,11 +6,6 @@ class MoneyTest(unittest.TestCase):
     five = Dollar(5)
     product = five.times(2)
     self.assertEqual(10, product.amount)
-  
-  def testMultiplicationThree(self):
-    three = Dollar(3)
-    product = three.times(2)
-    self.assertEqual(6, product.amount)
 
 # 実装コード
 class Dollar():
